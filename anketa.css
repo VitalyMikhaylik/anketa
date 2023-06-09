@@ -1,0 +1,38 @@
+.content{
+    width: 900px;
+    background-color: aquamarine;
+    margin-left: 150px;
+}
+
+body{
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+}
+
+.text{
+    border: 1px solid rgb(126, 120, 120);
+    border-radius: 5px;
+    width: 900px;
+    height: 30px;
+}
+
+.button{
+    border: none;
+    border-radius: 5px;
+    width: 900px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.divbutton{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.button:hover{
+    background-color: rgb(180, 172, 172);
+}
